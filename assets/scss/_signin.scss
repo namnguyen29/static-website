@@ -1,0 +1,37 @@
+.signin-page {
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include smallest {
+      padding: 0em 0.8em;
+    }
+    & h1 {
+      margin: 2.57em 0em 1.96em;
+      @include smallest {
+        font-size: 1.25rem;
+        margin: 2em 0em 1.7em;
+      }
+    }
+    & input {
+      max-width: 432px;
+      width: 100%;
+      margin-bottom: 1.375em;
+      padding: 1.31em 1.625em 1.25em;
+      border-radius: 0.3125em;
+      border: $input-border;
+      @include text-style(1em, 400, 1.17em, rgba(0, 0, 0, 0.6));
+      @include smallest {
+        padding: 1em 1.3em;
+        font-size: 0.75rem;
+      }
+    }
+    & button {
+      margin-top: 1.83em;
+      @include smallest {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
