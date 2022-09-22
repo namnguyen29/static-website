@@ -113,6 +113,12 @@ button {
     font-size: 0.5rem;
   }
 }
+.header > a {
+  text-decoration: none;
+}
+.header > a .logo {
+  color: #fba2d0;
+}
 
 .homepage .homepage__introduction {
   position: relative;
